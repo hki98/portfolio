@@ -1,3 +1,12 @@
+/**
+ * Root layout component for the portfolio website.
+ * Handles global font loading, theme provider, and language provider setup.
+ * 
+ * Fonts:
+ * - Geist Sans: Primary font for English text
+ * - Geist Mono: Monospace font for code snippets
+ * - Noto Kufi Arabic: Arabic text font
+ */
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
@@ -32,6 +41,10 @@ export const metadata: Metadata = {
   description: "Portfolio of Haian Ibrahim, a passionate Fullstack Developer",
 };
 
+/**
+ * RootLayout component wraps the entire application.
+ * Provides theme and language context to all child components.
+ */
 export default function RootLayout({
   children,
 }: Readonly<{

@@ -1,3 +1,14 @@
+/**
+ * Home page component for the portfolio website.
+ * Features:
+ * - Animated hero section with profile photo
+ * - About section with professional background
+ * - Skills showcase with interactive cards
+ * - Language proficiency indicators
+ * - Contact form with Formspree integration
+ * 
+ * @component
+ */
 "use client"
 import { motion } from "framer-motion";
 import Image from "next/image";
@@ -7,6 +18,11 @@ import AnimatedBackground from "@/components/AnimatedBackground";
 import { fadeInUp, staggerContainer, cardHover } from "@/lib/animations";
 import { useLanguage } from "@/contexts/LanguageContext";
 
+/**
+ * Main Home component
+ * Handles the presentation of all portfolio sections
+ * Includes bilingual support and theme-aware styling
+ */
 export default function Home() {
   const [state, handleSubmit] = useForm(process.env.NEXT_PUBLIC_FORMSPREE_ID as string);
   const { t, language } = useLanguage();
