@@ -1,3 +1,16 @@
+/**
+ * Navigation bar component.
+ * Features responsive design with mobile menu, animations, and language support.
+ * 
+ * @author Haian Ibrahim <contact@haian.me>
+ * @copyright 2024 Haian Ibrahim
+ * 
+ * @component
+ * @example
+ * ```tsx
+ * <Navbar />
+ * ```
+ */
 "use client"
 import { useState } from "react";
 import Link from "next/link";

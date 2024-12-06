@@ -1,3 +1,17 @@
+/**
+ * Theme switcher component.
+ * Provides a button to toggle between light and dark themes.
+ * Features smooth animations and icon transitions.
+ * 
+ * @author Haian Ibrahim <contact@haian.me>
+ * @copyright 2024 Haian Ibrahim
+ * 
+ * @component
+ * @example
+ * ```tsx
+ * <ThemeSwitcher />
+ * ```
+ */
 "use client"
 import { motion } from "framer-motion";
 import { Sun, Moon } from "lucide-react";
