@@ -2,6 +2,9 @@
  * Root layout component for the portfolio website.
  * Handles global font loading, theme provider, and language provider setup.
  * 
+ * @author Haian Ibrahim <contact@haian.me>
+ * @copyright 2024 Haian Ibrahim
+ * 
  * Fonts:
  * - Geist Sans: Primary font for English text
  * - Geist Mono: Monospace font for code snippets

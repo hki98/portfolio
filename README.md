@@ -2,6 +2,9 @@
 
 A modern, responsive portfolio website built with Next.js and TailwindCSS, featuring bilingual support (English/Arabic), smooth animations, and a contact form.
 
+[![Author](https://img.shields.io/badge/Author-Haian%20Ibrahim-blue.svg)](https://haian.me)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 ## Features
 
 - 🌐 Bilingual Support (English/Arabic)

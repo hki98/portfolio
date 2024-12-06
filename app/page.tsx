@@ -1,5 +1,9 @@
 /**
  * Home page component for the portfolio website.
+ * 
+ * @author Haian Ibrahim <contact@haian.me>
+ * @copyright 2024 Haian Ibrahim
+ * 
  * Features:
  * - Animated hero section with profile photo
  * - About section with professional background
