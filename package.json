@@ -1,7 +1,23 @@
 {
   "name": "portfolio",
-  "version": "0.1.0",
+  "version": "1.0.5",
   "private": true,
+  "author": {
+    "name": "Haian Ibrahim",
+    "email": "contact@haian.me",
+    "url": "https://haian.me"
+  },
+  "description": "Personal portfolio website with bilingual support and modern UI",
+  "homepage": "https://haian.me",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hki98/portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hki98/portfolio/issues",
+    "email": "contact@haian.me"
+  },
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build --no-lint",
@@ -14,19 +30,30 @@
     "@tailwindcss/typography": "^0.5.15",
     "framer-motion": "^11.12.0",
     "lucide-react": "^0.462.0",
-    "next": "15.0.3",
+    "next": "14.0.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "@next/font": "^14.0.0"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "15.0.3",
+    "eslint-config-next": "14.0.3",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
-  }
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "portfolio",
+    "nextjs",
+    "react",
+    "typescript",
+    "tailwindcss",
+    "bilingual",
+    "rtl-support"
+  ]
 }
