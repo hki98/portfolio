@@ -1,3 +1,15 @@
+/**
+ * Animation variants for Framer Motion.
+ * Collection of reusable animations used throughout the portfolio.
+ * 
+ * @author Haian Ibrahim <contact@haian.me>
+ * @copyright 2024 Haian Ibrahim
+ */
+
+/**
+ * Fade in and slide up animation variant
+ * Used for content that appears as user scrolls
+ */
 export const fadeInUp = {
   initial: {
     opacity: 0,
@@ -12,6 +24,10 @@ export const fadeInUp = {
   }
 };
 
+/**
+ * Stagger container variant
+ * Used to create staggered animations for child elements
+ */
 export const staggerContainer = {
   animate: {
     transition: {
@@ -20,6 +36,10 @@ export const staggerContainer = {
   }
 };
 
+/**
+ * Scale animation for hover states
+ * Provides a spring-like bounce effect
+ */
 export const scaleOnHover = {
   whileHover: {
     scale: 1.05,
@@ -31,6 +51,10 @@ export const scaleOnHover = {
   }
 };
 
+/**
+ * Card hover animation variant
+ * Combines scale and lift effects for interactive cards
+ */
 export const cardHover = {
   rest: {
     scale: 1,

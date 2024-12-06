@@ -1,4 +1,66 @@
-export const translations = {
+/**
+ * Translation strings for multilingual support.
+ * Contains all text content in English and Arabic.
+ * 
+ * @author Haian Ibrahim <contact@haian.me>
+ * @copyright 2024 Haian Ibrahim
+ */
+
+/**
+ * Translation object type definition
+ * Ensures type safety for all translations
+ */
+export type Translations = {
+  [key in 'en' | 'ar']: {
+    nav: {
+      about: string;
+      skills: string;
+      languages: string;
+      contact: string;
+    };
+    hero: {
+      title: string;
+      subtitle: string;
+      contactMe: string;
+      downloadResume: string;
+    };
+    about: {
+      title: string;
+      paragraph1: string;
+      paragraph2: string;
+    };
+    skills: {
+      title: string;
+      frontend: string;
+      backend: string;
+      mobile: string;
+      tools: string;
+    };
+    languages: {
+      title: string;
+      arabic: string;
+      english: string;
+      german: string;
+      native: string;
+      professional: string;
+      a1: string;
+    };
+    contact: {
+      title: string;
+      name: string;
+      email: string;
+      message: string;
+      send: string;
+      sending: string;
+      success: string;
+    };
+  };
+};
+
+/**
+ * Translation strings for all supported languages
+ */
+export const translations: Translations = {
   en: {
     nav: {
       about: "About",
