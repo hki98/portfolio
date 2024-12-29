@@ -319,7 +319,9 @@ export default function Home() {
                   className="space-y-2"
                 >
                   <div className="flex justify-between items-center">
-                    <h3 className="text-lg font-semibold">{lang.language}</h3>
+                    <h3 className="text-lg font-semibold text-zinc-800 dark:text-zinc-200">
+                      {lang.language}
+                    </h3>
                     <span className="text-sm text-zinc-600 dark:text-zinc-400">
                       {lang.level}
                     </span>
